@@ -21,7 +21,7 @@ body{
   color: white;
   font-size: 35px;
   letter-spacing: 1px;
-  padding: 20px; /* Extra padding toegevoegd om de tekst beter zichtbaar te maken */
+  padding: 20px; 
 }
 
 .spana {
@@ -102,9 +102,9 @@ nav ul li a {
 
 .content {
   position: absolute;
-  top: 45%; /* Verlaagd van 50% naar 45% */
+  top: 45%; 
   left: 8%;
-  transform: translateY(-45%); /* Aangepast van -50% naar -45% */
+  transform: translateY(-45%); 
 }
 
 h1 {
@@ -225,7 +225,7 @@ h3 {
   padding: 13px 30px;
   border-radius: 30px;
   transition: 0.4s;
-  margin-left: 20px; /* Aangepaste marge aan de linkerkant */
+  margin-left: 20px; 
 }
 
 .buttona:hover {
