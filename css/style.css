@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(../img/Maina.jpg);
+  background-image: url(../Img/Maina.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .spana {
-  color: #9f2626;
+  color: #D14743;
 }
 
 nav {
@@ -145,7 +145,7 @@ h3 {
 .overa {
   width: 100%;
   padding: 100px 0px;
-  background-color: #191919;
+  background-color: black;
 }
 
 .overa img {
@@ -158,7 +158,7 @@ h3 {
 }
 
 .overa-tekst h2 {
-  color: #9f2626;
+  color: #D14743;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -181,7 +181,7 @@ h3 {
 }
 
 .h4a {
-  color: #9f2626;
+  color: #D14743;
   letter-spacing: 2px;
   font-size: 20px;
 }
@@ -333,10 +333,23 @@ footer p:nth-child(2) {
 
 /* Skills images */
 .Laravel {
-  height: 30px;
-  margin-left: -20px;
+height: 5%;
+  width: 10%;
+  margin-bottom: 0px;
+  margin-top: 40%;
+  right: 20%;
+  float: left;
 }
 
+.React {
+  height: 5%;
+  width: 10%;
+}
+
+.Css {
+  height: 5%;
+  width: 10%;
+}
 /* Media queries voor mobiel */
 @media screen and (max-width: 768px) {
   .main {
@@ -350,6 +363,7 @@ footer p:nth-child(2) {
     padding-left: 20%;
   }
   .content {
+    margin-top: 20%;
     left: 5%;
     width: 90%;
     text-align: center;
@@ -382,6 +396,7 @@ footer p:nth-child(2) {
   }
   .image {
     margin: 30%;
+
   }
 }
 /*media queries voor landscape mode*/
@@ -390,10 +405,9 @@ footer p:nth-child(2) {
     height: auto;
   }
 
-  
-
   .content {
-    top: 20%;
+    margin-top: 0px;
+      margin-bottom: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
   }
